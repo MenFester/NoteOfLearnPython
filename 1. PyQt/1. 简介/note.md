@@ -33,3 +33,14 @@
     * 软件所有权为开发者本人所有
     * 允许其他用户对原作者软件进行复制和发行
     * 也可以更改后，发行自己的软件
+  * 安装
+    * 创建虚拟环境：pipenv --three
+    * 切换至虚拟环境：pipenv shell
+    * 修改配置文件，指定库托管地址：https://pypi.tuna.tsinghua.edu.cn/simple
+    * 在虚拟环境下安装库：
+      * pipenv install pyqt5
+      * pipenv install pyqt-tools
+    * 全局安装：
+      * PyQt5安装：pip install PyQt5 -i https://pypi.douban.com/simple
+      * 辅助工具安装：pip install PyQt5-tools -i https://pypi.douban.com/simple
+    * 
