@@ -190,3 +190,10 @@
           * QCameraViewfinder
         * QWebEngineView
   * 不同的控件有
+  * 控件的继承结构
+    * 面向对象，控件的框架就是继承图
+    * 学习时，先学习父类，再学习子类
+    * 所有PyQt类都继承QObject
+    * QWidget继承自QObject
+    * 大部分控件直接、间接继承自QWidget
+    * `print(QWidget.__subclasses__())`等方法查看有哪些子类，或者写函数遍历出树结构
